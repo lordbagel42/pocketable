@@ -1,8 +1,28 @@
 # Pocketable: A smol, pocketable, very pretty keyboard.
 
-![alt text](image.png)
+![alt text](assets/image.png)
 
 if a corne and a zsa voyager had a child
+
+# more photos :3
+
+le pcb
+![alt text](assets/image-1.png)
+
+le case
+![alt text](image.png)
+
+# why is this special?
+
+This photo is why:
+
+![](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM5NTksInB1ciI6ImJsb2JfaWQifX0=--6f98851ed5f9ae227ef4d54581a34a3968b1ea41/image.png)
+
+This is a cutting board. Notably, it's a handmade wooden cutting board with 3 different types of wood in it. This is what I'm going to be making this keyboard into, as I have access to a professional woodshop and enough types of CNC to make something like this.
+
+This will actually be for sale once I have a decent methodology for making the case multiple times, as I've already had multiple people reach out.
+
+I would put a decent looking render in but my blender instance just...doesn't open anymore? So I can't get renders functioning sadly.
 
 # BOM
 
