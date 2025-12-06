@@ -4,6 +4,8 @@
 
 if a corne and a zsa voyager had a child
 
+This project was made for one primary reason: my old split keyboard design kinda sucked to make layouts for. The thumb cluster was horrible. This, however, will function with ZSA Voyager layouts, which are generally shared publicly and well-tested.
+
 # more photos :3
 
 le pcb
@@ -30,7 +32,7 @@ I would put a decent looking render in but my blender instance just...doesn't op
 
 | ITEM                  | SUPPLIER        | COUNT | UNIT COST | ROW COST |
 | --------------------- | --------------- | ----: | --------: | -------: |
-| Xiao ESP32            | typeractive.xyz |     2 |    $16.99 |   $33.98 |
+| Xiao NRF52840         | typeractive.xyz |     2 |    $16.99 |   $33.98 |
 | Kailh Hotswap Sockets | typeractive.xyz |    60 |     $0.15 |    $9.00 |
 | Battery Jack          | typeractive.xyz |     2 |     $0.50 |    $1.00 |
 | 1.5u Keycap           | typeractive.xyz |     0 |     $0.50 |    $0.00 |
