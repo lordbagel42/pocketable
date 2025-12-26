@@ -1,44 +1,26 @@
-# Pocketable: A smol, pocketable, very pretty keyboard.
+# Pocketable
 
-![alt text](assets/image.png)
+![keyboard left half](RENDER-STUFF/Pocketable/Left.png)
+![keyboard right half](RENDER-STUFF/Pocketable/Right.png)
 
-if a corne and a zsa voyager had a child
+if a corne and a zsa voyager had a child\_
 
 This project was made for one primary reason: my old split keyboard design kinda sucked to make layouts for. The thumb cluster was horrible. This, however, will function with ZSA Voyager layouts, which are generally shared publicly and well-tested.
 
-# more photos :3
+This will be for sale eventually. Please reply to [issue 1](https://github.com/lordbagel42/pocketable/issues/1) if you would like to buy one. Cost will be around $240 per keyboard.
 
-le pcb
-![alt text](assets/image-1.png)
+## but why?
 
-le case
-![alt text](image.png)
-
-# why is this special?
-
-This photo is why:
-
-![](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM5NTksInB1ciI6ImJsb2JfaWQifX0=--6f98851ed5f9ae227ef4d54581a34a3968b1ea41/image.png)
-
-This is a cutting board. Notably, it's a handmade wooden cutting board with 3 different types of wood in it. This is what I'm going to be making this keyboard into, as I have access to a professional woodshop and enough types of CNC to make something like this.
-
-This will actually be for sale once I have a decent methodology for making the case multiple times, as I've already had multiple people reach out.
-
-I would put a decent looking render in but my blender instance just...doesn't open anymore? So I can't get renders functioning sadly.
+This keyboards a little special compared to most, for one reason: it's almost all made in-house by me. I'll be machining the brass plate myself along with the wooden base case, plus laser-cutting the acrylic LED cover myself. It's also all hand soldered and one day will have custom keycaps. For now though I've been graciously sponsored with black keycaps.
 
 # BOM
 
-[the gooble sheet](https://docs.google.com/spreadsheets/d/1JvyBpCuiH7XgFo-gO215HGFeqtSEhnPSUs8fcJy509Q/edit?gid=363512385#gid=363512385)
+View the BOM at [this google sheet](https://docs.google.com/spreadsheets/d/1JvyBpCuiH7XgFo-gO215HGFeqtSEhnPSUs8fcJy509Q/edit?gid=363512385#gid=363512385). Total cost at time of writing this README is ~$250
 
-| ITEM                  | SUPPLIER        | COUNT | UNIT COST | ROW COST |
-| --------------------- | --------------- | ----: | --------: | -------: |
-| Xiao NRF52840         | typeractive.xyz |     2 |    $16.99 |   $33.98 |
-| Kailh Hotswap Sockets | typeractive.xyz |    60 |     $0.15 |    $9.00 |
-| Battery Jack          | typeractive.xyz |     2 |     $0.50 |    $1.00 |
-| 1.5u Keycap           | typeractive.xyz |     0 |     $0.50 |    $0.00 |
-| Homing Keycap         | typeractive.xyz |     0 |     $0.50 |    $0.00 |
-| Keycap                | typeractive.xyz |     0 |     $0.40 |    $0.00 |
-| Choc Switches         | typeractive.xyz |    60 |     $0.55 |   $33.00 |
-| Diodes                | typeractive.xyz |    60 |     $0.08 |    $4.80 |
-| Power Switch          | typeractive.xyz |     2 |     $0.75 |    $1.50 |
-| Wood                  | Local           |     1 |    $30.00 |   $30.00 |
+## more photos :3
+
+heres the pcb design!
+
+silkscreen art will be included for mine, however I won't be showing it in this repo as it contains PII :3
+
+![le pcb](assets/PCB.png)

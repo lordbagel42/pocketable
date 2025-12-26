@@ -1161,6 +1161,245 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_marbastlib-various:SK6812MINI-E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 7.62 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "reverse mount led revmount rgb"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -1398,6 +1637,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 241.3 25.4)
@@ -1436,6 +1800,18 @@
 		(uuid 653f43d2-8aab-4d7e-9df9-9abc3ce7cdc5)
 	)
 	(rectangle
+		(start 238.76 54.61)
+		(end 280.67 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8ce988b7-8828-4d20-ba68-2cef5636280d)
+	)
+	(rectangle
 		(start 177.8 64.77)
 		(end 229.87 125.73)
 		(stroke
@@ -1458,6 +1834,16 @@
 			(type none)
 		)
 		(uuid 9b2937fd-01b3-4474-a97f-835dd8643437)
+	)
+	(text "LED's"
+		(exclude_from_sim no)
+		(at 240.538 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0dcb7dd4-cd19-49e1-8802-a42927d75197")
 	)
 	(text "Battery Sense"
 		(exclude_from_sim no)
@@ -1534,6 +1920,12 @@
 		(uuid "166301d3-79e1-4f7b-864b-78c64086d546")
 	)
 	(junction
+		(at 262.89 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb935c9-a540-4c49-a242-531e6c48e51f")
+	)
+	(junction
 		(at 204.47 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1552,10 +1944,22 @@
 		(uuid "34f97fe2-cb2b-479b-922f-1c5916fcb304")
 	)
 	(junction
+		(at 247.65 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cb05b04-77a4-4a14-bde3-0f5c63615b82")
+	)
+	(junction
 		(at 114.3 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "424b0bd9-630c-4981-b6cc-6111668ea4a8")
+	)
+	(junction
+		(at 262.89 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43f2f00f-3da3-4cb0-bce9-4c34f0066665")
 	)
 	(junction
 		(at 139.7 63.5)
@@ -1588,6 +1992,18 @@
 		(uuid "4d783ed7-4bdb-4aba-9966-edea6e07df0f")
 	)
 	(junction
+		(at 247.65 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fcafbb3-29d2-479e-b233-32cbd96e3ecd")
+	)
+	(junction
+		(at 262.89 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dc5992c-3701-4029-b9aa-1fe712055e13")
+	)
+	(junction
 		(at 139.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1618,6 +2034,12 @@
 		(uuid "94035681-13bc-478c-9d2b-d0471f9c5192")
 	)
 	(junction
+		(at 247.65 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9648fe68-fd46-44fc-922e-fd02e191e71a")
+	)
+	(junction
 		(at 76.2 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1630,10 +2052,22 @@
 		(uuid "98147db4-4be4-45d4-9a44-d1e3b8d70871")
 	)
 	(junction
+		(at 262.89 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e7cf07f-1f0d-47ba-8b7f-5b2c6ad9948d")
+	)
+	(junction
 		(at 63.5 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e7d068e-4bc1-4190-a4f7-2d0abe5a327b")
+	)
+	(junction
+		(at 262.89 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a258571e-e57b-4034-8e75-b3327cdeceb1")
 	)
 	(junction
 		(at 63.5 114.3)
@@ -1660,6 +2094,12 @@
 		(uuid "ab9ec2e8-672f-48af-9c9e-4c4ac5c2a73b")
 	)
 	(junction
+		(at 247.65 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b17671ef-eeb7-475a-9820-b05e46d4c194")
+	)
+	(junction
 		(at 25.4 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1670,6 +2110,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b46c53ab-3671-41c2-b5b6-d609ff0fb7f8")
+	)
+	(junction
+		(at 247.65 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bad61332-63c2-4559-9ba7-527a7b8c699a")
 	)
 	(junction
 		(at 88.9 114.3)
@@ -1825,6 +2271,26 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 106.68) (xy 212.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b084dfd-484d-4b7a-bb22-e2ed1756c81b")
+	)
+	(wire
+		(pts
+			(xy 255.27 93.98) (xy 255.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c546f68-3d12-4d99-a0e6-41224401185e")
+	)
+	(wire
+		(pts
 			(xy 76.2 50.8) (xy 83.82 50.8)
 		)
 		(stroke
@@ -1885,6 +2351,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 86.36) (xy 247.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8540ee-7142-4bb6-bea7-f0c24df6c73e")
+	)
+	(wire
+		(pts
 			(xy 19.05 165.1) (xy 38.1 165.1)
 		)
 		(stroke
@@ -1892,6 +2368,36 @@
 			(type default)
 		)
 		(uuid "2aedbb20-b5b8-45d0-badd-cf4e84c5fb1b")
+	)
+	(wire
+		(pts
+			(xy 247.65 119.38) (xy 247.65 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dffd2a4-7bc7-4f9f-b9d1-14c119be4c38")
+	)
+	(wire
+		(pts
+			(xy 220.98 77.47) (xy 220.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e96453a-4069-4c83-b830-cb65aad4674e")
+	)
+	(wire
+		(pts
+			(xy 262.89 86.36) (xy 262.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34908eae-8c11-411b-a4ed-53be15090f0c")
 	)
 	(wire
 		(pts
@@ -1962,6 +2468,16 @@
 			(type default)
 		)
 		(uuid "3c541ecf-0842-429e-93fc-bd5ba93b7606")
+	)
+	(wire
+		(pts
+			(xy 247.65 60.96) (xy 247.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f56a4cc-6e51-43b9-84b0-a0f2ae425581")
 	)
 	(wire
 		(pts
@@ -2125,6 +2641,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 59.69) (xy 255.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ba8586-78da-4017-a5e0-3f1af699c844")
+	)
+	(wire
+		(pts
 			(xy 189.23 88.9) (xy 194.31 88.9)
 		)
 		(stroke
@@ -2285,6 +2811,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 143.51) (xy 255.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3f0774-9aac-4e06-85db-e1a4bdd18150")
+	)
+	(wire
+		(pts
 			(xy 127 127) (xy 134.62 127)
 		)
 		(stroke
@@ -2305,6 +2841,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 119.38) (xy 262.89 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89708497-b1bd-4966-9b16-fabb7c26cedb")
+	)
+	(wire
+		(pts
 			(xy 114.3 63.5) (xy 139.7 63.5)
 		)
 		(stroke
@@ -2322,6 +2868,16 @@
 			(type default)
 		)
 		(uuid "8b8d49d3-5920-408f-a37a-45f02a2fcc9c")
+	)
+	(wire
+		(pts
+			(xy 220.98 78.74) (xy 219.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce0ff3e-35cd-436f-a6ba-8d8d878c64ea")
 	)
 	(wire
 		(pts
@@ -2362,6 +2918,16 @@
 			(type default)
 		)
 		(uuid "908f1266-7ab3-4567-954e-2fbfb134f8f1")
+	)
+	(wire
+		(pts
+			(xy 247.65 102.87) (xy 247.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e12874-72be-45f2-a3fe-8b01b1e04b7d")
 	)
 	(wire
 		(pts
@@ -2455,6 +3021,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 110.49) (xy 255.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb57bc7-b71f-4c67-9d8b-5b2de1121a9c")
+	)
+	(wire
+		(pts
 			(xy 19.05 88.9) (xy 38.1 88.9)
 		)
 		(stroke
@@ -2515,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 127) (xy 255.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdce010f-5fa1-4049-b3bf-641e059b86ea")
+	)
+	(wire
+		(pts
 			(xy 189.23 81.28) (xy 194.31 81.28)
 		)
 		(stroke
@@ -2525,6 +3111,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 69.85) (xy 262.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e34121-474d-47a1-8139-5348f2c30b8b")
+	)
+	(wire
+		(pts
 			(xy 101.6 76.2) (xy 101.6 101.6)
 		)
 		(stroke
@@ -2532,6 +3128,16 @@
 			(type default)
 		)
 		(uuid "c826fdb8-911f-41af-866d-81a1f4f6ddde")
+	)
+	(wire
+		(pts
+			(xy 255.27 77.47) (xy 255.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e24df6-9f13-412e-949c-712a42fc9340")
 	)
 	(wire
 		(pts
@@ -2552,6 +3158,16 @@
 			(type default)
 		)
 		(uuid "cd18b9cf-c905-49fb-b0f6-f5a5f3f12d1e")
+	)
+	(wire
+		(pts
+			(xy 262.89 60.96) (xy 262.89 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4c0228-c80f-4e0a-b200-b6f2e5ffc110")
 	)
 	(wire
 		(pts
@@ -2592,6 +3208,16 @@
 			(type default)
 		)
 		(uuid "d807631f-930e-46de-84f8-930051f35d28")
+	)
+	(wire
+		(pts
+			(xy 262.89 135.89) (xy 262.89 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d830b546-82d1-4c61-97f9-b8e63a13f5b0")
 	)
 	(wire
 		(pts
@@ -2672,6 +3298,16 @@
 			(type default)
 		)
 		(uuid "ddd4f19d-a9bd-4151-87b9-e164100e682a")
+	)
+	(wire
+		(pts
+			(xy 247.65 69.85) (xy 247.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e002569b-522e-4480-bff4-5609662cfa80")
 	)
 	(wire
 		(pts
@@ -2825,6 +3461,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 102.87) (xy 262.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb141f67-cc8b-47f8-8f5b-35c60366bcd7")
+	)
+	(wire
+		(pts
 			(xy 224.79 93.98) (xy 219.71 93.98)
 		)
 		(stroke
@@ -2832,6 +3478,16 @@
 			(type default)
 		)
 		(uuid "fcc27b84-4497-406b-9d87-5fec5e6b301f")
+	)
+	(wire
+		(pts
+			(xy 247.65 135.89) (xy 247.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd99bb4e-e8bb-41c8-b231-b34358ceb0cd")
 	)
 	(label "COL3"
 		(at 101.6 38.1 0)
@@ -3073,6 +3729,16 @@
 		)
 		(uuid "d13ba1af-6f63-4cb7-926e-c10d9480d023")
 	)
+	(label "LED"
+		(at 255.27 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ded2b131-5bfb-4bcc-bd97-6e51008d5ef4")
+	)
 	(label "ROW2"
 		(at 19.05 114.3 0)
 		(effects
@@ -3082,6 +3748,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4be6779-a51b-45d2-92e2-f38be8726a1b")
+	)
+	(label "LED"
+		(at 212.09 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8dbc8a3-abff-41fb-96ee-10a8358d5405")
 	)
 	(label "COL5"
 		(at 189.23 91.44 0)
@@ -3194,10 +3870,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D27")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D54")
 					(unit 1)
@@ -3263,10 +3935,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "#PWR03")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "#PWR04")
 					(unit 1)
@@ -3355,10 +4023,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D14")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D34")
 					(unit 1)
@@ -3447,10 +4111,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D9")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D37")
 					(unit 1)
@@ -3519,10 +4179,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH22")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH49")
 					(unit 1)
@@ -3611,10 +4267,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D24")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D53")
 					(unit 1)
@@ -3683,10 +4335,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH23")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH50")
 					(unit 1)
@@ -3775,10 +4423,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D23")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D48")
 					(unit 1)
@@ -3867,10 +4511,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D22")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D43")
 					(unit 1)
@@ -3939,10 +4579,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH14")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH41")
 					(unit 1)
@@ -4031,12 +4667,81 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D3")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 255.27 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20b751a4-8d50-447c-8776-7e44aaf025a2")
+		(property "Reference" "LED7"
+			(at 271.018 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 271.018 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b4a6b3a7-4370-444b-9e5e-3df49e130d06")
+		)
+		(pin "2"
+			(uuid "1c9c9fed-717c-404d-90b0-a18f6589783f")
+		)
+		(pin "4"
+			(uuid "e9271c3d-fd3d-49c7-b991-95576d671d53")
+		)
+		(pin "1"
+			(uuid "a16d7295-194b-4d28-857b-003f96e69f0c")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -4175,10 +4880,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH20")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH47")
 					(unit 1)
@@ -4247,10 +4948,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH16")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH43")
 					(unit 1)
@@ -4339,10 +5036,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D26")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D49")
 					(unit 1)
@@ -4411,10 +5104,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH25")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH52")
 					(unit 1)
@@ -4575,10 +5264,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D21")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D39")
 					(unit 1)
@@ -4667,10 +5352,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D7")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D29")
 					(unit 1)
@@ -4759,10 +5440,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D2")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D32")
 					(unit 1)
@@ -4851,12 +5528,81 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 255.27 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37f170c0-bc2b-4773-9bfb-5bbb51daf54f")
+		(property "Reference" "LED8"
+			(at 271.018 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 271.018 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f1cc437-a950-4924-b970-b4ec82ba8bf3")
+		)
+		(pin "2"
+			(uuid "612b9f25-7b71-4172-a8fc-bd35f79ea248")
+		)
+		(pin "4"
+			(uuid "c5c22af8-7e3a-4032-af87-0c7417ce365c")
+		)
+		(pin "1"
+			(uuid "1c62120b-1365-44df-a1ec-310aa8008770")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -4923,10 +5669,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "R4")
 					(unit 1)
@@ -4995,10 +5737,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH27")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH54")
 					(unit 1)
@@ -5063,10 +5801,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "H4")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "H8")
 					(unit 1)
@@ -5135,10 +5869,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH26")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH53")
 					(unit 1)
@@ -5340,10 +6070,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH7")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH34")
 					(unit 1)
@@ -5432,12 +6158,81 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D4")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 255.27 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d463b48-2acc-4e2f-8141-69e8bb6dfdcd")
+		(property "Reference" "LED12"
+			(at 271.018 146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 271.018 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 255.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 255.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "777b3122-11bf-41ff-8f1b-48ab7dbf03e1")
+		)
+		(pin "2"
+			(uuid "012ea422-5496-4614-9d30-f418e75c39f0")
+		)
+		(pin "4"
+			(uuid "00ce288f-b18c-43f7-aeb5-a1b0d9bc0ea8")
+		)
+		(pin "1"
+			(uuid "bdd71c33-b7d3-47cd-b570-363fe65c7060")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -5500,10 +6295,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "H3")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "H7")
 					(unit 1)
@@ -5592,10 +6383,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D15")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D38")
 					(unit 1)
@@ -5753,10 +6540,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D6")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D50")
 					(unit 1)
@@ -5825,12 +6608,81 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH4")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 255.27 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69e7f1fd-3c89-4ed6-a89b-8b437fb3c540")
+		(property "Reference" "LED10"
+			(at 271.018 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 271.018 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eaa87829-8bb2-4159-88a8-14e2dbb369a9")
+		)
+		(pin "2"
+			(uuid "f9ab2414-2f50-41ae-a344-d78b660f7db1")
+		)
+		(pin "4"
+			(uuid "084f8034-4e89-4e2b-a6b4-5bf149ed0875")
+		)
+		(pin "1"
+			(uuid "f724ec55-d48a-48f2-b866-65ce6258f51b")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -6009,10 +6861,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D33")
 					(unit 1)
@@ -6101,10 +6949,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D17")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D47")
 					(unit 1)
@@ -6193,10 +7037,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D25")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D44")
 					(unit 1)
@@ -6285,10 +7125,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D18")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D52")
 					(unit 1)
@@ -6377,10 +7213,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D13")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D30")
 					(unit 1)
@@ -6446,10 +7278,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "#PWR07")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "#PWR06")
 					(unit 1)
@@ -6612,12 +7440,146 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D16")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98cbb2a7-34d7-43a3-9b80-151f3eea3102")
+		(property "Reference" "#PWR011"
+			(at 247.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e349659-2f4c-451b-902f-583bb9843471")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 255.27 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99be0388-16a3-4117-a08b-f57631dd9486")
+		(property "Reference" "LED11"
+			(at 271.018 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 271.018 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ea413ca-ca3a-48d8-ba7a-7158e1d7f8b6")
+		)
+		(pin "2"
+			(uuid "7dcf4eef-881f-42c2-bee1-f555bb775ebb")
+		)
+		(pin "4"
+			(uuid "9a99a2e3-c567-4497-95d0-71698263c07b")
+		)
+		(pin "1"
+			(uuid "23be2aab-544b-4e45-b8a2-57d6d3ff1684")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -6704,10 +7666,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D11")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D46")
 					(unit 1)
@@ -6776,10 +7734,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH8")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH35")
 					(unit 1)
@@ -6848,10 +7802,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH10")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH37")
 					(unit 1)
@@ -6920,10 +7870,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH2")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH29")
 					(unit 1)
@@ -6988,12 +7934,74 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "H2")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 220.98 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e446e9-9bf4-47d5-8d47-303d45312cbd")
+		(property "Reference" "#PWR013"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 220.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f68536e4-8ae1-4f6d-bda0-d1279c30a9c2")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7058,10 +8066,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "#PWR05")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "#PWR02")
 					(unit 1)
@@ -7150,10 +8154,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D10")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D41")
 					(unit 1)
@@ -7234,6 +8234,144 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 255.27 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c029992c-a67c-4f3b-b93b-aeefed0719f1")
+		(property "Reference" "LED9"
+			(at 271.018 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 271.018 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2be2f3cb-b387-46f8-b6d9-a454d828b74c")
+		)
+		(pin "2"
+			(uuid "b1819a50-97a1-4ff7-8f98-d58c5e70c4f2")
+		)
+		(pin "4"
+			(uuid "30974b9d-2eb7-4038-8f66-b7f1fae3788a")
+		)
+		(pin "1"
+			(uuid "c3a60b9f-9243-4a19-b92e-34f93063fbb4")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 262.89 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c56d99d1-159f-40c0-a6b3-a6cd50e0e594")
+		(property "Reference" "#PWR012"
+			(at 262.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 265.938 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc40b3af-2969-4a0e-b3c9-2dd633d5fa8c")
+		)
+		(instances
+			(project "split-keeb-v2"
+				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
 		(at 162.56 78.74 0)
 		(unit 1)
@@ -7294,10 +8432,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH12")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH39")
 					(unit 1)
@@ -7366,10 +8500,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH3")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH30")
 					(unit 1)
@@ -7438,10 +8568,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH17")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH44")
 					(unit 1)
@@ -7510,10 +8636,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH6")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH33")
 					(unit 1)
@@ -7578,10 +8700,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "H1")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "H5")
 					(unit 1)
@@ -7650,10 +8768,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH9")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH36")
 					(unit 1)
@@ -7722,10 +8836,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH11")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH38")
 					(unit 1)
@@ -7814,10 +8924,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D5")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D45")
 					(unit 1)
@@ -7886,10 +8992,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH19")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH46")
 					(unit 1)
@@ -7958,10 +9060,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH21")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH48")
 					(unit 1)
@@ -8030,10 +9128,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH15")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH42")
 					(unit 1)
@@ -8102,10 +9196,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH5")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH32")
 					(unit 1)
@@ -8174,10 +9264,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH13")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH40")
 					(unit 1)
@@ -8246,10 +9332,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH24")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH51")
 					(unit 1)
@@ -8338,10 +9420,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D19")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D31")
 					(unit 1)
@@ -8410,10 +9488,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "CH18")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "CH45")
 					(unit 1)
@@ -8502,10 +9576,6 @@
 		)
 		(instances
 			(project "split-keeb-v2"
-				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/4da02fb0-c55f-4bc1-bfd9-236d74db39ef"
-					(reference "D20")
-					(unit 1)
-				)
 				(path "/feabae9e-8963-4c6c-96fe-941c3f86e805/7738e3f5-13e1-4bea-a05f-b0084d280e5e"
 					(reference "D35")
 					(unit 1)
