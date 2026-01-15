@@ -3,6 +3,8 @@
 ![keyboard left half](RENDER-STUFF/Pocketable/Left.png)
 ![keyboard right half](RENDER-STUFF/Pocketable/Right.png)
 
+<sup><sub>ignore the fact that some of the keycaps are shiny and others are matte. blender is not happy with me.</sub></sup>
+
 if a corne and a zsa voyager had a child\_
 
 This project was made for one primary reason: my old split keyboard design kinda sucked to make layouts for. The thumb cluster was horrible. This, however, will function with ZSA Voyager layouts, which are generally shared publicly and well-tested.
@@ -21,6 +23,14 @@ View the BOM at [this google sheet](https://docs.google.com/spreadsheets/d/1JvyB
 
 heres the pcb design!
 
-silkscreen art will be included for mine, however I won't be showing it in this repo as it contains PII :3
+silkscreen art will be included for mine, however I won't be showing it in this repo as it contains a lil PII :3
 
 ![le pcb](assets/PCB.png)
+
+## left half schematic
+
+![alt text](assets/left-sch.png)
+
+## right half schematic
+
+![alt text](assets/right-sch.png)
