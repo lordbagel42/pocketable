@@ -1,7 +1,7 @@
 # Pocketable
 
-![keyboard left half](RENDER-STUFF/Pocketable/Left.png)
-![keyboard right half](RENDER-STUFF/Pocketable/Right.png)
+![keyboard left half](RENDERS/Left.png)
+![keyboard right half](RENDERS/Right.png)
 
 <sup><sub>ignore the fact that some of the keycaps are shiny and others are matte. blender is not happy with me.</sub></sup>
 
